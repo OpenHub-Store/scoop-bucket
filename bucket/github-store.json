@@ -1,20 +1,21 @@
 {
     "version": "1.6.2",
     "description": "Cross-platform app store for GitHub releases",
-    "homepage": "https://github.com/OpenHub-Store/GitHub-Store",
+    "homepage": "https://github-store.org",
     "license": {
         "identifier": "Apache-2.0",
         "url": "https://www.apache.org/licenses/LICENSE-2.0"
     },
-    "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-1.6.2.msi",
-    "hash": "47ba4af52738fa5c1a49fde246429f021fe69b0f6dc168499ef5de0b654cb002",
+    "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-1.6.2-windows-x64.zip",
+    "hash": "",
     "extract_dir": "GitHub-Store",
+    "bin": "GitHub-Store.exe",
     "checkver": {
         "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/latest",
-        "regex": "GitHub-Store-([\\d.]+)\\.msi"
+        "regex": "GitHub-Store-([\\d.]+)-windows-x64\\.zip"
     },
     "autoupdate": {
-        "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/$version/GitHub-Store-$version.msi",
+        "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/$version/GitHub-Store-$version-windows-x64.zip",
         "extract_dir": "GitHub-Store"
     }
 }
