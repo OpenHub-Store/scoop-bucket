@@ -8,6 +8,12 @@
     },
     "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/1.6.2/GitHub-Store-1.6.2.msi",
     "hash": "47ba4af52738fa5c1a49fde246429f021fe69b0f6dc168499ef5de0b654cb002",
+    "installer": {
+        "script": "Start-Process msiexec.exe -Wait -ArgumentList '/i', '$fname', '/quiet', '/qn', 'INSTALLDIR=' + $dir"
+    },
+    "uninstaller": {
+        "script": "Start-Process msiexec.exe -Wait -ArgumentList '/x', '$fname', '/quiet', '/qn'"
+    },
     "bin": "GitHub-Store.exe",
     "shortcuts": [
         [
