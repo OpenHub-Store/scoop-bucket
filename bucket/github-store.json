@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/$version/GitHub-Store-$version.msi"
+                "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/v$version/GitHub-Store-$version.msi"
             }
         }
     }
