@@ -19,7 +19,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/OpenHub-Store/GitHub-Store"
+        "github": "https://github.com/OpenHub-Store/GitHub-Store"
     },
     "autoupdate": {
         "architecture": {
