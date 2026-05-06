@@ -1,5 +1,5 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Cross-platform app store for GitHub releases",
     "homepage": "https://github-store.org/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/v1.8.0/GitHub-Store-1.8.0.msi",
-            "hash": "47193eb88d6f02b0d237bc536e9cb77eafd86a0454107236c6e4f21d3fc0aebe"
+            "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/v1.8.1/GitHub-Store-1.8.1.msi",
+            "hash": "2a8de8e4bcdc2f2055207a5ffea7d03abfa7ee903e925b2ba07c1b0af6fa5ab0"
         }
     },
     "shortcuts": [
