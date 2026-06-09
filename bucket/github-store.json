@@ -9,12 +9,13 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/OpenHub-Store/GitHub-Store/releases/download/v1.9.0/GitHub-Store-1.9.0.msi",
-            "hash": "845a7c800f60232e0f921b91928325892090421828e10810e42f088d59e6484f"
+            "hash": "845a7c800f60232e0f921b91928325892090421828e10810e42f088d59e6484f",
+            "extract_dir": "GitHub-Store"
         }
     },
     "shortcuts": [
         [
-            "GitHub-Store/GitHub-Store.exe",
+            "GitHub-Store.exe",
             "GitHub Store"
         ]
     ],
