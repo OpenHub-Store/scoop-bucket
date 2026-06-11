@@ -21,8 +21,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/kurikomi-labs/komi-store/releases/latest",
-        "regex": "Komi-Store-([\\d.]+)-windows-portable\\.zip"
+        "github": "https://github.com/kurikomi-labs/komi-store"
     },
     "autoupdate": {
         "architecture": {
