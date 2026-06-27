@@ -1,5 +1,7 @@
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [komi-store-release]
   schedule:
     # run every 4 hours
     - cron: '20 */4 * * *'
